@@ -18,6 +18,12 @@ gitignored.
   can also append rows between sessions whenever there's a fresh number.
 - **No row, no narrative.** If the number isn't known, the row says UNKNOWN —
   and finding it usually becomes the session's action item.
+- **Growth check first.** Every startup session opens by re-pulling the number
+  fresh (via Stripe CLI if authenticated, otherwise by asking) and comparing
+  it to the target. Set `Target: N%/week` at the top of `growth.md`; 10% is
+  the recommended default. Below target — especially flat — is a red alert:
+  growth becomes the session's first problem, ahead of whatever the founder
+  came to talk about.
 
 ## Format (`growth.md`)
 
