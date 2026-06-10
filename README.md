@@ -1,6 +1,6 @@
 # open-partner
 
-**An open-source YC-style partner — office hours, accountability, and the source corpus, for the 98% who never get the acceptance email.**
+**An open-source YC-style partner — office hours, accountability, and the source corpus.**
 
 YC's real product was never the money. It's the method: a partner across the table who asks what you committed to, scores whether you did it, finds the one problem that matters this week, and sends you away with an action small enough that you can't hide from it. That method is mostly conversation + corpus + cadence — which means it can be a repo.
 
@@ -31,63 +31,24 @@ It should **not** pretend to be Paul Graham. Use it as a Paul-Graham-and-YC-info
 
 ## How to run a session
 
-### Before the session
+Clone the repo, open your agent inside it, and say:
 
-Fill these in:
+```
+office hours
+```
 
-- `templates/oh_prep.md` — structured prep for the current session.
-- `templates/weekly-metrics.md` — weekly metric snapshot.
-- `templates/session-summary.md` — copy the previous summary if this is not the first session.
+That's the whole interface. The agent reads `AGENTS.md`, loads the office-hours
+skill, opens the latest `sessions/` entry, scores your previous commitments, and
+runs the 30/60-minute workflow — asking you the prep questions conversationally
+and writing the session summary itself. You never fill in a template by hand;
+you just answer questions and bring facts (metrics, user quotes, what actually
+happened since last time).
 
-Optional but useful:
+First session ever? Say `office hours` anyway — the partner interviews you to
+build the company snapshot first.
 
-- `templates/user-learning-log.md` for raw user evidence.
-- `templates/problem-priority-triage.md` for choosing between competing problems.
-- `templates/experiment_card.md` for the next action.
-
-### Start the conversation
-
-Paste this into ChatGPT or another assistant:
-
-- `prompts/pg_yc_office_hours_master_prompt.md`
-
-Then paste:
-
-1. Your company snapshot.
-2. Your latest `oh_prep.md`.
-3. Your previous `session-summary.md`, if any.
-4. Any raw user notes, metrics, screenshots, or sales notes.
-
-Ask the assistant to route the discussion through the source matrix before giving advice.
-
-### During the session
-
-Use:
-
-- `playbooks/pg_yc_office_hours_workflow.md` — canonical 30/60 minute session flow.
-- `playbooks/source_backed_retrieval_protocol.md` — how to search and cite the right PG/YC materials.
-- `office_hours_corpus_map.md` — fast map from founder complaint to likely real issue.
-- `sources/pg_yc_office_hours_source_matrix.md` — detailed source router by problem type.
-
-The session should produce exactly four outputs:
-
-1. **Diagnosis:** the biggest current obstacle to growth or survival.
-2. **Rationale:** the facts and source anchors supporting that diagnosis.
-3. **Assignment:** one or two founder-owned actions due before the next session.
-4. **Metric:** the number or behavior that will decide whether the action worked.
-
-### After the session
-
-Write the outcome in:
-
-- `templates/session-summary.md`
-- `templates/decision_log_template.md`
-- `templates/experiment_card.md`
-
-Then track the next cycle in:
-
-- `templates/weekly-metrics.md`
-- `templates/user-learning-log.md`
+Everything below this point is the machinery the agent uses (and reference for
+running it manually if you ever want to).
 
 ## Source-backed retrieval flow
 
@@ -118,7 +79,6 @@ python scripts/search_office_hours_sources.py "web3 community excited but produc
 | Hiring as a growth plan | `Default Alive or Default Dead?`, `The 18 Mistakes That Kill Startups`, `How to Start a Startup` |
 | Too many possible directions | `What I've Learned from Users`, `Startup = Growth`, `The Top Idea in Your Mind` |
 | Founder psychology / morale | `How Not to Die`, `Relentlessly Resourceful`, `A Word to the Resourceful`, `Founder Mode` |
-| Web3 community but weak usage | `Do Things that Don't Scale`, `Startup = Growth`, `web3_protocol_notes/yc_style_for_protocol_startups.md` |
 
 ## 30-minute office-hours shape
 
@@ -154,9 +114,3 @@ The core files for daily use are:
 - `templates/oh_prep.md`
 - `templates/session-summary.md`
 - `scripts/search_office_hours_sources.py`
-
-## Notes for a crypto/community/protocol startup
-
-Use YC logic before crypto-native logic. Treat token price, Discord size, Twitter engagement, allowlist demand, and vague community excitement as weak signals unless they convert into repeated product behavior, revenue, retained contributors, or concrete distribution advantage.
-
-For protocol work, the best early metric is often not raw users. It may be retained active communities, weekly meaningful transactions, number of projects that depend on the protocol, contribution recurrence, or revenue/take-rate from real economic activity. The office-hours loop should force the metric to represent behavior that would be painful to lose.

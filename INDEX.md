@@ -32,7 +32,6 @@ The zip import contains these primary sections:
 - `prompts/` — reusable mock YC partner prompts.
 - `checklists/` — preflight and review checklists.
 - `ops/` — 12-week mock batch, decision log, and maintenance guidance.
-- `web3_protocol_notes/` — protocol-startup adaptation.
 - `sources/` — official source maps, source manifest, YC library seed index, and refresh policy.
 
 ## Local Supplemental Artifacts

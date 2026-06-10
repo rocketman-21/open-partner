@@ -94,9 +94,7 @@ Use these first for weekly sessions:
 - `fundraising-readiness.md` — fundraising readiness checklist.
 - `launch-hn-prep.md` — launch prep.
 
-## `web3_protocol_notes/`
 
-- `yc_style_for_protocol_startups.md` — adaptations for crypto/protocol/community startups.
 
 ## `scripts/`
 

@@ -14,7 +14,8 @@ The goal is not to brainstorm everything. The goal is to find the biggest obstac
 
 ## Inputs
 
-The founder should bring:
+The partner collects these — conversationally if files don't exist; the founder
+never fills templates by hand:
 
 - `templates/oh_prep.md`
 - `templates/weekly-metrics.md`
