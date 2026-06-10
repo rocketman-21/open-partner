@@ -25,6 +25,7 @@ Use these first for weekly sessions:
 - `pg_yc_office_hours_source_matrix.md` — main source router for office hours.
 - `source_manifest.json` — machine-readable source list.
 - `official_sources.md` — source links grouped by topic.
+- `pg_diagnostic_index.md` — named PG tests/heuristics indexed by bottleneck gate; a routing map into the full essays, which must be read whole (incompressibility rule).
 - `pg_essay_catalog_startup_relevant.md` — startup-relevant PG essay index, with priority tags.
 - `paul-graham-startup-core-reading.md` — startup-core reading order and local paths.
 - `paul-graham-local-corpus.md` — local PG corpus notes.

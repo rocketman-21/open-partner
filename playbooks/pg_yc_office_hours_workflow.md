@@ -63,7 +63,15 @@ Write a fact table:
 
 ### 5-8 minutes: source routing
 
-Pick 3-7 sources using `sources/pg_yc_office_hours_source_matrix.md` and `office_hours_corpus_map.md`.
+Pick 3-7 sources using `sources/pg_yc_office_hours_source_matrix.md`,
+`office_hours_corpus_map.md`, and `sources/pg_diagnostic_index.md` (named tests
+indexed by gate).
+
+**Incompressibility rule:** PG's essays are incompressible — there is
+load-bearing information in nearly every sentence. When a source is routed,
+READ THE ENTIRE ESSAY FILE before applying it. Quote the essay's own words to
+the founder where they cut deeper than yours; never work from notes about an
+essay when the essay itself is one file away.
 
 Minimum default set for a launched startup:
 
@@ -98,6 +106,11 @@ Use this tree in order. Stop at the highest unresolved gate.
 - Is runway short enough that survival constrains the next action?
 - Are we assuming fundraising will save us without growth evidence?
 
+Apply the named tests: default alive (run the arithmetic out loud with their
+numbers), fatal pinch (if the plan is "raise more" with <6 months runway, say
+the probability is zero), ramen profitability as the nearest flippable state.
+Index: `sources/pg_diagnostic_index.md` §Gate 1.
+
 If survival is the bottleneck, the action is usually: increase revenue quickly, decrease burn, narrow scope, or run a focused fundraising process with a fallback date.
 
 #### Gate 2: Real user demand
@@ -108,7 +121,12 @@ If survival is the bottleneck, the action is usually: increase revenue quickly, 
 - Would they be upset if the product disappeared?
 - Have they paid, returned, referred, integrated, or depended on it?
 
-If demand is weak, the action is usually: talk to a narrower user segment, watch real usage, manually solve the problem, or ask for money.
+Lead with the single best question: "How do you know people want this?" Then
+the larval-market test (who wants it so urgently they'll use a buggy v1 from
+two unknowns, today?), the sitcom-idea test, and would-you-use-it-yourself.
+Index: `sources/pg_diagnostic_index.md` §Gate 2.
+
+If demand is weak, the action is usually: talk to a narrower user segment, watch real usage, manually solve the problem, sell before building more, or ask for money.
 
 #### Gate 3: Product value / activation
 
@@ -135,6 +153,12 @@ If retention is weak, the action is usually: interview retained users, cut non-r
 - What manual recruiting did the founders do?
 - Is there a contained-fire segment where density can be achieved quickly?
 
+Demand the number: weekly growth rate of the best real metric — "a hundred new
+customers a month" is not a rate. 5-7%/wk good, 10% exceptional, 1% means the
+what hasn't been figured out yet. Then contained-fire (where is demand
+hottest?) and the extraordinary-effort test (a growth plan with no founder
+sweat in it is ipso facto suspect). Index: `sources/pg_diagnostic_index.md` §Gate 5.
+
 If growth is weak but users are happy, the action is usually: manual recruiting sprint, narrow segment launch, founder-led sales, referral ask, or community/customer wedge.
 
 #### Gate 6: Focus / founder behavior
@@ -142,6 +166,12 @@ If growth is weak but users are happy, the action is usually: manual recruiting 
 - Are the founders spending most time on the bottleneck?
 - What are they doing that feels productive but avoids the scary thing?
 - What would be obvious to do if survival depended on this week?
+
+Run the shower test (what does their mind drift to — and why has something
+else become the top idea in it?), check for type-B procrastination (productive-
+feeling wrong work), and watch the persistent-vs-obstinate line: does pushback
+make them lean in with predatory intensity, or do their eyes glaze?
+Index: `sources/pg_diagnostic_index.md` §Gate 6.
 
 If focus is weak, the action is usually: stop-list, calendar rewrite, one metric, one owner, one deadline.
 
@@ -212,6 +242,15 @@ Use the same structure, but spend additional time on raw evidence:
 | 42-52 | Action design and scope cuts. |
 | 52-60 | Commitment, stop-list, next session setup. |
 
+## Partner voice
+
+Calibrate tone against `sources/pg_diagnostic_index.md` §Partner voice (and
+read `019-users.md`, `073-pinch.md`, `036-ace.md` whole). The moves: concrete
+arithmetic over adjectives; the deflating "just" when founders hunt for
+tricks; hard cuts delivered as questions; relative-importance surgery on the
+founder's problem list; numbers as verdicts. Direct is kind — the founder can
+get comfort anywhere; accuracy is what they came here for.
+
 ## Counter-diagnosis habit
 
 Before accepting the founder's proposed problem, force at least one alternative:
@@ -225,6 +264,16 @@ Before accepting the founder's proposed problem, force at least one alternative:
 | We need to hire | Maybe founders are avoiding the work only founders can do. |
 | Community is excited | Maybe social enthusiasm is not retained product behavior. |
 | I'll launch right after I finish X | X is usually avoidance. Apply the launch test: could a text message launch this today? If yes, the launch comes first and X waits. |
+| We built it and it didn't take off | Startups take off because founders make them take off. What manual recruiting have you done? (`079-ds.md`) |
+| No one else is doing this and the market is huge | That combination doesn't exist. Either you have a secret weapon in a crowded market, or the market looks small. (`081-startupideas.md`) |
+| We're worried we're too late | Worrying you're late is a sign of a good idea; startups are almost never killed by competitors. (`081-startupideas.md`) |
+| What if Google builds this? | Fear the startups you don't know exist yet. Big companies have bureaucracy; cornered animals have motivation. (`171-startuplessons.md`) |
+| We need to hire to grow | Big staffs are the effect of growth, not the cause. Maybe the product is only moderately appealing — and hiring makes that harder to fix. (`063-aord.md`) |
+| Our existing investors promised to follow on | They mentioned a possibility. With short runway, ask for the money right now and flush out the truth. (`073-pinch.md`) |
+| We raised at a great valuation | Pride in fundraising is pride in your college grades. Dropbox raised at $4M pre. What's the growth rate? (`076-fr.md`) |
+| The product is 85% done | User counts can't be lied about; percent-done can. Launch teaches you what you should have been building. (`127-13sentences.md`) |
+| We work on it nights and weekends | The most common startup failure is the side project nobody ever hears about. (`163-startupmistakes.md`) |
+| A competitor just raised $20M | Like watching a car you're chasing turn down a street you know has no outlet. (`192-venturecapital.md`) |
 | We needed the infrastructure first | Maybe one of the launches needed it — the others never did. Launch the unblocked ones today; build only for the blocked one. |
 
 ## Source-backed session output template
