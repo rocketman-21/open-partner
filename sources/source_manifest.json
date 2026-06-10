@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-05-12",
+  "note": "This corpus stores summaries, source maps, rubrics, and templates. It intentionally does not redistribute full copyrighted essays/articles. Use scripts to build private local manifests or fetch pages on your own machine if needed.",
+  "official_sources": [
+    {
+      "name": "Paul Graham essays index",
+      "url": "https://paulgraham.com/articles.html",
+      "type": "essay index"
+    },
+    {
+      "name": "Do Things that Don't Scale",
+      "url": "https://paulgraham.com/ds.html",
+      "type": "PG essay"
+    },
+    {
+      "name": "Startup = Growth",
+      "url": "https://paulgraham.com/growth.html",
+      "type": "PG essay"
+    },
+    {
+      "name": "How to Start a Startup",
+      "url": "https://paulgraham.com/start.html",
+      "type": "PG essay"
+    },
+    {
+      "name": "Startups in 13 Sentences",
+      "url": "https://paulgraham.com/13sentences.html",
+      "type": "PG essay"
+    },
+    {
+      "name": "How Not to Die",
+      "url": "https://paulgraham.com/die.html",
+      "type": "PG essay"
+    },
+    {
+      "name": "Default Alive or Default Dead?",
+      "url": "https://paulgraham.com/aord.html",
+      "type": "PG essay"
+    },
+    {
+      "name": "Before the Startup",
+      "url": "https://paulgraham.com/before.html",
+      "type": "PG essay"
+    },
+    {
+      "name": "How to Raise Money",
+      "url": "https://paulgraham.com/fr.html",
+      "type": "PG essay"
+    },
+    {
+      "name": "How to Convince Investors",
+      "url": "https://paulgraham.com/convince.html",
+      "type": "PG essay"
+    },
+    {
+      "name": "What Happens at YC",
+      "url": "https://www.ycombinator.com/about",
+      "type": "YC official"
+    },
+    {
+      "name": "Apply to YC",
+      "url": "https://www.ycombinator.com/apply",
+      "type": "YC official"
+    },
+    {
+      "name": "Y Combinator FAQ",
+      "url": "https://www.ycombinator.com/faq",
+      "type": "YC official"
+    },
+    {
+      "name": "YC Standard Deal",
+      "url": "https://www.ycombinator.com/deal",
+      "type": "YC official"
+    },
+    {
+      "name": "YC Safe Financing Documents",
+      "url": "https://www.ycombinator.com/documents",
+      "type": "YC official"
+    },
+    {
+      "name": "Resources for Investors",
+      "url": "https://www.ycombinator.com/investors",
+      "type": "YC official"
+    },
+    {
+      "name": "Startup School",
+      "url": "https://www.startupschool.org/",
+      "type": "YC official"
+    },
+    {
+      "name": "Startup School FAQ",
+      "url": "https://www.startupschool.org/faq",
+      "type": "YC official"
+    },
+    {
+      "name": "YC Startup Library",
+      "url": "https://www.ycombinator.com/library",
+      "type": "YC official"
+    }
+  ],
+  "yc_library_seed_urls": [
+    "https://www.ycombinator.com/library/4D-yc-s-essential-startup-advice",
+    "https://www.ycombinator.com/library/Io-how-to-build-an-mvp",
+    "https://www.ycombinator.com/library/6f-how-to-plan-an-mvp",
+    "https://www.ycombinator.com/library/Iq-how-to-talk-to-users",
+    "https://www.ycombinator.com/library/Ip-how-to-get-your-first-customers",
+    "https://www.ycombinator.com/library/6k-growth-for-startups",
+    "https://www.ycombinator.com/library/5z-the-real-product-market-fit",
+    "https://www.ycombinator.com/library/7V-how-to-find-product-market-fit",
+    "https://www.ycombinator.com/library/4e-guide-to-product-development",
+    "https://www.ycombinator.com/library/8C-how-to-measure-your-product",
+    "https://www.ycombinator.com/library/8H-analytics-for-startups",
+    "https://www.ycombinator.com/library/8F-modern-startup-funding",
+    "https://www.ycombinator.com/library/7R-startup-legal-mechanics",
+    "https://www.ycombinator.com/library/L8-yc-s-group-partners-discuss-doing-things-that-don-t-scale",
+    "https://www.ycombinator.com/library/N2-yc-partners-answer-your-questions-office-hours",
+    "https://www.ycombinator.com/library/LG-why-startup-founders-should-launch-companies-sooner-than-they-think",
+    "https://www.ycombinator.com/library/61-order-of-operations-for-starting-a-startup",
+    "https://www.ycombinator.com/library/8g-how-to-get-startup-ideas",
+    "https://www.ycombinator.com/library/9h-how-to-get-your-first-ten-customers",
+    "https://www.ycombinator.com/library/4b-how-to-pitch-your-company"
+  ]
+}

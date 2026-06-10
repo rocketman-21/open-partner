@@ -1,0 +1,7 @@
+.DS_Store
+# Personal company context — never published
+MURPH.md
+*.local.md
+# Session ledger entries are private; the convention ships, the contents don't
+sessions/*
+!sessions/README.md
