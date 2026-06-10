@@ -20,6 +20,7 @@ never fills templates by hand:
 - `templates/oh_prep.md`
 - `templates/weekly-metrics.md`
 - the latest summary in `sessions/` (the session ledger — read it FIRST, every time)
+- `metrics/growth.md` (the growth ledger — the weekly-growth trend going into the session)
 - user notes, sales notes, support tickets, or product analytics
 - list of exact users/prospects contacted since last session
 
@@ -47,7 +48,10 @@ Then ask:
 2. Did you do it? If not, why not?
 3. What changed materially?
 4. What did users do or teach you?
-5. What is the current weekly growth rate of the best real metric?
+5. What is the current weekly growth rate of the best real metric? Append the
+   answer as a row in `metrics/growth.md` — every session, no exceptions. If
+   the founder doesn't know the number, the row says UNKNOWN and finding it is
+   a candidate action item.
 6. How much runway do you have, and are you default alive or dead?
 
 Write a fact table:

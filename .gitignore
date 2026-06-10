@@ -5,3 +5,6 @@ MURPH.md
 # Session ledger entries are private; the convention ships, the contents don't
 sessions/*
 !sessions/README.md
+# Growth ledger entries are private; the convention ships, the contents don't
+metrics/*
+!metrics/README.md

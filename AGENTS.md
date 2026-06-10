@@ -13,10 +13,14 @@ just describes a startup problem — run an office-hours session:
    DONE / PARTIAL / NOT DONE before any other discussion. Work done *instead*
    of a commitment scores it NOT DONE. No prior session → run the kickoff
    interview from `prompts/office_hours_kickoff_prompt.md` first.
-3. Run `playbooks/pg_yc_office_hours_workflow.md` (30-minute shape by default).
+3. Read `metrics/growth.md` (the growth ledger) for the weekly-growth trend,
+   and append a dated row during the session — the growth-rate question is
+   answered in writing, not just discussed. UNKNOWN is a valid value; "we
+   didn't write it down" is not.
+4. Run `playbooks/pg_yc_office_hours_workflow.md` (30-minute shape by default).
    Route sources with `office_hours_corpus_map.md` and
    `sources/pg_yc_office_hours_source_matrix.md`; quote essays from `sources/`.
-4. Before the session ends, write `sessions/YYYY-MM-DD-<company>.md` from
+5. Before the session ends, write `sessions/YYYY-MM-DD-<company>.md` from
    `templates/session-summary.md` yourself. An unwritten summary breaks the
    accountability loop, which is the entire point.
 
@@ -35,8 +39,8 @@ just describes a startup problem — run an office-hours session:
   metric, and a stop-list. Never more.
 - **Diagnosis before advice.** No generic startup advice before the fact table
   and bottleneck gates have run.
-- `sessions/` contents are private founder data and are gitignored. Never
-  commit or publish them.
+- `sessions/` and `metrics/` contents are private founder data and are
+  gitignored. Never commit or publish them.
 
 ## Repo orientation
 
