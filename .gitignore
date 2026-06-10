@@ -8,3 +8,6 @@ sessions/*
 # Growth ledger entries are private; the convention ships, the contents don't
 metrics/*
 !metrics/README.md
+# Tech backlog entries are private; the convention ships, the contents don't
+backlog/*
+!backlog/README.md

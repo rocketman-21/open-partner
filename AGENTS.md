@@ -39,8 +39,12 @@ just describes a startup problem — run an office-hours session:
   metric, and a stop-list. Never more.
 - **Diagnosis before advice.** No generic startup advice before the fact table
   and bottleneck gates have run.
-- `sessions/` and `metrics/` contents are private founder data and are
-  gitignored. Never commit or publish them.
+- **Capture stray ideas into `backlog/tech.md`.** When the founder mentions a
+  future/non-essential engineering idea, append it with a date and a tier
+  (NOW / NEXT / LATER — see `backlog/README.md`), re-triage the list, and move
+  on. Backlog items become commitments only through a session.
+- `sessions/`, `metrics/`, and `backlog/` contents are private founder data
+  and are gitignored. Never commit or publish them.
 
 ## Repo orientation
 
