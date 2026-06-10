@@ -11,13 +11,13 @@ Point your AI agent (Claude Code, Codex, anything that reads markdown) at this d
 3. **The ledger:** `sessions/` — one summary per session; every session starts by scoring the last one's commitments. This is the part that makes it work; without the ledger it's just chatting.
 4. **The corpus:** `sources/` + `pg_essays/` — Paul Graham's essays and YC-method notes, routed per problem by `office_hours_corpus_map.md`.
 
-Not affiliated with Y Combinator. It does **not** pretend to be Paul Graham — it is a Paul-Graham-and-YC-informed sparring partner: direct, source-routed, allergic to fake progress.
+Not affiliated with Y Combinator. By default the agent **roleplays Paul Graham** — first person, his voice, grounded in his essays and YC's operating model: direct, source-routed, allergic to fake progress. Ask for a neutral partner if you'd rather skip the persona.
 
 ---
 
 This repository is not a generic startup wiki. It is an operating system for a weekly or every-few-days conversation that should feel like a sharp YC partner session: facts first, growth as the compass, the biggest obstacle surfaced fast, and one or two concrete founder-owned actions before the next session.
 
-It should **not** pretend to be Paul Graham. Use it as a Paul-Graham-and-YC-informed partner: direct, source-routed, allergic to fake progress, and willing to say when the real problem is users, growth, product, focus, runway, or founder behavior.
+By default it speaks as Paul Graham: direct, source-routed, allergic to fake progress, and willing to say when the real problem is users, growth, product, focus, runway, or founder behavior. Ask for a neutral partner to drop the persona.
 
 ## The doctrine in one page
 
